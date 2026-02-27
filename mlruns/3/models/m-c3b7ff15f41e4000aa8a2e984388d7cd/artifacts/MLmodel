@@ -1,0 +1,23 @@
+artifact_path: file:d:/ITI data/ML/New folder/mlruns/3/models/m-c3b7ff15f41e4000aa8a2e984388d7cd/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.2
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.9.0
+model_id: m-c3b7ff15f41e4000aa8a2e984388d7cd
+model_size_bytes: 89160604
+model_uuid: m-c3b7ff15f41e4000aa8a2e984388d7cd
+prompts: null
+run_id: 2520fda43004408eb2ac3e0df4bca42b
+utc_time_created: '2026-02-27 12:47:26.840101'
